@@ -1,15 +1,5 @@
 In this project, I've built a image **Match Game** by applying react concepts Components, Component Life Cycle methods Constructor, render, ComponentDidMount and shcedulers to a set timer.
 
-### Refer to the video below to understand more:
-
-<br/>
-<div style="text-align: center;">
-  <video style="max-width:80%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);outline:none;" loop="true" autoplay="autoplay" controls="controls" muted>
-    <source src="https://assets.ccbp.in/frontend/content/react-js/match-game-output.mp4" type="video/mp4">
-  </video>
-</div>
-<br/>
-
 ### Design Files on Different Divices
 
 <details>
@@ -21,10 +11,10 @@ In this project, I've built a image **Match Game** by applying react concepts Co
 
 </details>
 
-### Completion Instructions
+### Functionalities Added
 
 <details>
-<summary>Functionalities added</summary>
+<summary>Clcik to view</summary>
 <br/>
 
 The app has the following functionalities
