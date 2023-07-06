@@ -1,0 +1,126 @@
+.bg-container {
+  min-height: 100vh;
+
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images-card {
+  width: 90%;
+  max-width: 1000px;
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-img {
+  width: 90%;
+  max-width: 500px;
+  margin-bottom: 10px;
+}
+
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding-left: 0px;
+}
+
+.thumbnails-container {
+  width: 100%;
+  padding-left: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.game-score-card {
+  width: 90%;
+  height: 550px;
+  padding: 20px 10px 20px 10px;
+
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.trophy {
+  width: 50%;
+  max-width: 300px;
+}
+
+.your-score-text {
+  margin-top: 4px;
+  margin-bottom: 0px;
+
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 400;
+
+  color: #ffffff;
+}
+
+.score-count {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+
+  color: #ffffff;
+}
+
+.play-again-btn {
+  width: 200px;
+  height: 50px;
+  border: 0 solid;
+  border-radius: 10px;
+
+  color: #ffffff;
+  background-color: #cf60c8;
+}
+
+.reset-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-icon-img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.play-again-text {
+  margin: 0px;
+
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .game-score-card {
+    width: 600px;
+    height: 600px;
+
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  }
+}
